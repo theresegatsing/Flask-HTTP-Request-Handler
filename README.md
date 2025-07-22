@@ -33,3 +33,12 @@ A simple Flask web app that demonstrates how to handle **GET** and **POST** HTTP
 - Returns a "Successfully registered" message.
 
 - If the username already exists, it returns "User Already exists".
+
+## Video Walkthrough
+
+Here's a walkthrough of the result:
+
+<img src='Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with ScreenToGif 
+
