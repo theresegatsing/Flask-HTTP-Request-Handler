@@ -16,7 +16,7 @@
     <body>
 
         <div>
-            <h1> Handling GET Requests </h1>
+            <h1> LOGIN ("GET" request) </h1>
             <form method = "GET" action =" {{url_for('handle_get')}}">
                 <input 
                 type="text"
@@ -33,11 +33,11 @@
         </div>
 
         <div>
-            <h1> Handling POST Requests </h1>
+            <h1> REGISTRATION / SIGN UP ("POST" request) </h1>
             <form method = "POST" action = "{{url_for('handle_post')}}">
                 <input 
                 type="text"
-                name ="username"
+               name ="username"
                 placeholder = "Username">
                 <input 
                 type = "password"

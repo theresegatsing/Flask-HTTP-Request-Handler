@@ -37,7 +37,8 @@ def handle_post():
             return '<h1>User Already exists!" </h1>'
         else:
             users[username] = password
-            return 'h1> User Successfully registered!</h1>'
+            
+            return '<h1>User Successfully registered!</h1>'
     else:
         return render_template("login.html")
 
