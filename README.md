@@ -1,6 +1,6 @@
 ## 📡 Flask HTTP Request Handler
 
-A simple Flask web app that demonstrates how to handle GET and POST HTTP requests using login and registration forms. The app mimics a basic user authentication system using a Python dictionary as the database.
+A simple Flask web app that demonstrates how to handle **GET** and **POST** HTTP requests using login and registration forms. The app mimics a basic user authentication system using a Python dictionary as the database.
 
 ## 🚀 Features
 ✅ Login using a GET request
