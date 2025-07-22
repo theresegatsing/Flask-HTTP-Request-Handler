@@ -1,7 +1,8 @@
-📡 Flask HTTP Request Handler
+## 📡 Flask HTTP Request Handler
+
 A simple Flask web app that demonstrates how to handle GET and POST HTTP requests using login and registration forms. The app mimics a basic user authentication system using a Python dictionary as the database.
 
-🚀 Features
+## 🚀 Features
 ✅ Login using a GET request
 
 ✅ Register using a POST request
@@ -14,19 +15,21 @@ A simple Flask web app that demonstrates how to handle GET and POST HTTP request
 
 ✅ Session-ready setup with app.secret_key
 
-🧠 How It Works
-🔐 Login (GET request)
-Users submit their credentials.
+## 🧠 How It Works
 
-The server checks if the credentials match existing users.
+**🔐 Login (GET request)**
 
-Returns a "Welcome" message or an "Invalid credentials" message.
+- Users submit their credentials.
 
-📝 Registration (POST request)
-Users submit new credentials via a form.
+- The server checks if the credentials match existing users.
 
-If the username doesn't exist, it’s added to the dictionary.
+- Returns a "Welcome" message or an "Invalid credentials" message.
 
-Returns a "Successfully registered" message.
+**📝 Registration (POST request)**
+- Users submit new credentials via a form.
 
-If the username already exists, it returns "User Already exists".
+- If the username doesn't exist, it’s added to the dictionary.
+
+- Returns a "Successfully registered" message.
+
+- If the username already exists, it returns "User Already exists".
