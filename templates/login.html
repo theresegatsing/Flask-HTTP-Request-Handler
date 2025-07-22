@@ -17,13 +17,34 @@
 
         <div>
             <h1> Handling GET Requests </h1>
+            <form method = "GET" action =" {{url_for('handle_get')}}">
+                <input 
+                type="text"
+                name = "username"
+                placeholder = "Username">
+                <input 
+                type="password"
+                name ="password"
+                placeholder = "Password">
+                <button type = "submit"> Submit </button>
+            </form>
             
 
         </div>
 
         <div>
             <h1> Handling POST Requests </h1>
-
+            <form method = "POST" action = "{{url_for('handle_post')}}">
+                <input 
+                type="text"
+                name ="username"
+                placeholder = "Username">
+                <input 
+                type = "password"
+                name = "password"
+                placeholder = "Password">
+                <button type = "submit"> Submit </button>
+            </form>
         </div>
 
     </body>
